@@ -81,4 +81,22 @@ const Testimonials = () => {
             <h3 className="text-3xl font-bold text-blue-600 mb-2">50+</h3>
             <p className="text-gray-600">Fornøyde Kunder</p>
           </div>
-          <div className="bg-green-50 p-8 rounde
+          <div className="bg-green-50 p-8 rounded-xl">
+            <h3 className="text-3xl font-bold text-green-600 mb-2">90%</h3>
+            <p className="text-gray-600">Økning i Responstid</p>
+          </div>
+          <div className="bg-purple-50 p-8 rounded-xl">
+            <h3 className="text-3xl font-bold text-purple-600 mb-2">15t</h3>
+            <p className="text-gray-600">Spart per Uke</p>
+          </div>
+          <div className="bg-orange-50 p-8 rounded-xl">
+            <h3 className="text-3xl font-bold text-orange-600 mb-2">24/7</h3>
+            <p className="text-gray-600">Kundeservice</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Testimonials;
